@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: python-container
-        image: 3beerkamal/python-app:latest
+        image: 3beerkamal/python-app
         ports:
         - containerPort: 8000
         envFrom:
